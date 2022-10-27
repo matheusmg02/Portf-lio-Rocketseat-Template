@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap');
+
+body {
+    background-color:#22212C;
+    margin: 40px;
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.foto-perfil {
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    border: 2px solid #00FF00;  
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 60px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-container > div {
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    gap: 7.5px;
+}
+
+.perfil img {
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.perfil h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.perfil p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.contatos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contatos ul span {
+    font-size: 14px;
+}
+
+.contatos ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contatos ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contatos ul li a:hover {
+    text-decoration: underline;
+}
+
+.tecnologias h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.tecnologias ul {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+}
+
+.tecnologias li {
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #CB92B1;
+    border-radius: 30px;
+    padding: 5px;
+    white-space: nowrap;
+    font-size: 10px;
+}
+
+.experiencias h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.experiencias ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+.experiencias ul li {
+    list-style: circle;
+}
+
+.educacao h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.educacao ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+.educacao ul li {
+    list-style: circle;
+}
+
+.right-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    place-self: start;
+}
+
+.right-container > div {
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.meus-projetos {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.meus-projetos-titulo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.meus-projetos-complemento {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.my-onix {
+    padding: 30px;
+}
+
+.my-onix-top {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.my-onix p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.my-onix-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-git {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.javascript {
+    display: flex;
+    align-items: center;
+}
+
+.javascript::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    background: #E7DE79;
+    border: 2px solid #837E9F;
+    border-radius: 100%;
+}
+
+.posts-recentes {
+    grid-column: 1/-1;
+    padding: 30px;
+}
+
+.posts-recentes p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.erro-adb {
+    padding: 30px;
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.erro-adb-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.erro-adb-texto1 > h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.erro-adb-texto1 > p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.erro-adb-texto2 > p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.erro-adb-texto2 > ul {
+    display: flex;
+    gap: 10px;
+}
+
+.erro-adb-texto2 > li {
+    font-size: 14px;
+    font-weight: 400;
+}
